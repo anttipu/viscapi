@@ -1,0 +1,30 @@
+#!/bin/bash
+/usr/bin/logger "Start viscapi"
+/usr/bin/logger "Forever check for viscapi"
+
+while :
+do
+
+  if [ -c /dev/ttyUSB0 ] && [ -c /dev/input/js0 ]; then
+    /usr/bin/logger "Both ttyUSB0 and js0 found"
+    if ps aux | grep python | grep --silent -v grep ; then
+      /usr/bin/logger "Viscapi running ok"
+    else
+      /usr/bin/logger "Viscapi not running, starting"
+      DISPLAY=:0 /usr/bin/python /home/pi/viscapi/viscapi.py &>> /tmp/viscapi.log &
+      sleep 1
+    fi
+  else
+    /usr/bin/logger "ttyUSB0 or js0 not found"
+    if ps aux | grep python | grep --silent -v grep ; then
+      /usr/bin/logger "Viscapi running, killing"
+      killall python
+    else
+      /usr/bin/logger "Viscapi not running, ok"
+    fi
+  fi
+
+  sleep 0.1
+
+done
+

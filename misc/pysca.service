@@ -1,0 +1,10 @@
+[Unit]
+Description=PYSCA
+
+[Service]
+ExecStart=/usr/bin/xinit -- /usr/bin/X -ac
+User=pi
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
