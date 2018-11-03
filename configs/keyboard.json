@@ -1,0 +1,41 @@
+{
+  "name": "keyboard",
+  "default-layout": {
+    "keys": {
+      "tilt-up": {"key": "K_KP2", "params": {"speed": 4}},
+      "tilt-down": {"key": "K_KP5", "params": {"speed": 4}},
+      "pan-left": {"key": "K_KP1", "params": {"speed": 4}},
+      "pan-right": {"key": "K_KP3", "params": {"speed": 4}},
+      "zoom-out": {"key":  "K_KP0", "params": {"speed": 4}},
+      "zoom-in": {"key": "K_KP_PERIOD", "params": {"speed": 4}},
+      "memory-recall": [
+        {"key": "K_KP_DIVIDE", "params": {"mem": 0}},
+        {"key": "K_KP7", "params": {"mem": 1}},
+        {"key": "K_KP8", "params": {"mem": 2}},
+        {"key": "K_KP4", "params": {"mem": 3}}
+      ],
+      "wb-blue-plus": "K_BACKSPACE",
+      "wb-blue-minus": "K_KP_MULTIPLY",
+      "wb-red-plus": "K_KP_MINUS",
+      "wb-red-minus": "K_KP9",
+      "auto-wb": "K_KP6"
+    }
+  },
+  "layout-1": {
+    "layout-key": "K_KP_ENTER",
+    "keys": {
+      "memory-set": [
+        {"key": "K_KP_DIVIDE", "params": {"mem": 0}},
+        {"key": "K_KP7", "params": {"mem": 1}},
+        {"key": "K_KP8", "params": {"mem": 2}},
+        {"key": "K_KP4", "params": {"mem": 3}}
+      ],
+      "zoom-out": {"key":  "K_KP0", "params": {"speed": 7}},
+      "zoom-in": {"key": "K_KP_PERIOD", "params": {"speed": 7}},
+      "tilt-up": {"key": "K_KP2", "params": {"speed": 14}},
+      "tilt-down": {"key": "K_KP5", "params": {"speed": 14}},
+      "pan-left": {"key": "K_KP1", "params": {"speed": 14}},
+      "pan-right": {"key": "K_KP3", "params": {"speed": 14}}
+    }
+  }
+}

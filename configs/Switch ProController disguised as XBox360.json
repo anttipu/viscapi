@@ -1,0 +1,64 @@
+{
+  "name": "Logitech Logitech Extreme 3D",
+  "default-layout": {
+    "buttons": {
+      "auto-focus": 0,
+      "auto-wb": 1,
+      "memory-recall": [
+        {"button": 2, "param": 0},
+        {"button": 3, "param": 1},
+        {"button": 4, "param": 2},
+        {"button": 5, "param": 3}
+      ],
+      "zoom-axis-on": 6,
+      "zoom-axis-off": 7,
+      "tilt-invert-on": 8,
+      "tilt-invert-off": 9,
+      "pan-right": { "button": 9, "param": 4 }
+    },
+    "hats": {
+      "zoom-in": { "id": 0, "dir": "up" },
+      "zoom-out": { "id": 0, "dir": "down" },
+      "focus-near": { "id": 0, "dir": "left" },
+      "focus-far": { "id": 0, "dir": "right" }
+    }
+  },
+  "layout-1": {
+    "layout-button": 10,
+    "buttons": {
+      "memory-set": [
+        {"button": 2, "param": 0},
+        {"button": 3, "param": 1},
+        {"button": 4, "param": 2},
+        {"button": 5, "param": 3}
+      ]
+    },
+    "hats": {
+      "wb-blue-plus": { "id": 0, "dir": "up" },
+      "wb-blue-minus": { "id": 0, "dir": "down" },
+      "wb-red-plus": { "id": 0, "dir": "left" },
+      "wb-red-minus": { "id": 0, "dir": "right" }
+    }
+  },
+  "axes": {
+    "pan-axis": 0,
+    "tilt-axis": 1,
+    "zoom-axis": 2,
+    "sensitivity-axis": 3
+  },
+  "parameters": {
+    "kill": [7, 9],
+    "pan-axis-multiplier": 10.0,
+    "tilt-axis-multiplier": 13.0,
+    "zoom-axis-multiplier": 2.5,
+    "zoom-axis-enabled": false,
+    "invert-pan-axis": false,
+    "invert-tilt-axis": false,
+    "invert-zoom-axis": false,
+    "invert-sensitivity-axis": false,
+    "pan-axis-dead-zone": 0.01,
+    "tilt-axis-dead-zone": 0.01,
+    "zoom-axis-dead-zone": 0.01,
+    "sensitivity-axis-dead-zone": 0.01
+  }
+}

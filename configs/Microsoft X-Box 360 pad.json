@@ -1,0 +1,58 @@
+{
+  "name": "Microsoft X-Box 360 pad",
+  "default-layout": {
+    "buttons": {
+      "auto-focus": 5,
+      "auto-wb": 4,
+      "memory-recall": [
+        {"button": 0, "param": 0},
+        {"button": 1, "param": 1},
+        {"button": 2, "param": 2},
+        {"button": 3, "param": 3}
+      ]
+    },
+    "hats": {
+      "zoom-in": { "id": 0, "dir": "up" },
+      "zoom-out": { "id": 0, "dir": "down" },
+      "focus-near": { "id": 0, "dir": "left" },
+      "focus-far": { "id": 0, "dir": "right" }
+    }
+  },
+  "layout-1": {
+    "layout-button": 6,
+    "buttons": {
+      "memory-set": [
+        {"button": 0, "param": 0},
+        {"button": 1, "param": 1},
+        {"button": 2, "param": 2},
+        {"button": 3, "param": 3}
+      ]
+    },
+    "hats": {
+      "wb-blue-plus": { "id": 0, "dir": "up" },
+      "wb-blue-minus": { "id": 0, "dir": "down" },
+      "wb-red-plus": { "id": 0, "dir": "left" },
+      "wb-red-minus": { "id": 0, "dir": "right" }
+    }
+  },
+  "axes": {
+    "pan-axis": 0,
+    "tilt-axis": 1,
+    "sensitivity-axis": 2,
+    "zoom-axis": 4
+  },
+  "parameters": {
+    "kill": [4, 5],
+    "pan-axis-multiplier": 10.0,
+    "tilt-axis-multiplier": 13.0,
+    "zoom-axis-multiplier": 2.5,
+    "zoom-axis-enabled": true,
+    "invert-pan-axis": false,
+    "invert-tilt-axis": false,
+    "invert-zoom-axis": true,
+    "invert-sensitivity-axis": false,
+    "pan-axis-dead-zone": 0.2,
+    "tilt-axis-dead-zone": 0.2,
+    "zoom-axis-dead-zone": 0.2
+  }
+}

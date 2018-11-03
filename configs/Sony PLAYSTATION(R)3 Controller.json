@@ -1,0 +1,64 @@
+{
+  "name": "Sony PLAYSTATION(R)3 Controller",
+  "default-layout": {
+    "buttons": {
+      "zoom-in": 13,
+      "zoom-out": 14,
+      "focus-near": 15,
+      "focus-far": 16,
+      "auto-focus": 7,
+      "auto-wb": 5,
+      "memory-recall": [
+        {"button": 0, "params": {"mem":  0}},
+        {"button": 1, "params": {"mem":  1}},
+        {"button": 2, "params": {"mem":  2}},
+        {"button": 3, "params": {"mem":  3}}
+      ]
+    },
+    "hats": {
+    }
+  },
+  "layout-1": {
+    "layout-button": 8,
+    "buttons": {
+      "memory-set": [
+        {"button": 0, "params": {"mem":  0}},
+        {"button": 1, "params": {"mem":  1}},
+        {"button": 2, "params": {"mem":  2}},
+        {"button": 3, "params": {"mem":  3}}
+      ]
+    },
+    "hats": {
+    }
+  },
+  "layout-2": {
+    "layout-button": 9,
+    "buttons": {
+      "wb-blue-plus": 13,
+      "wb-blue-minus": 14,
+      "wb-red-plus": 16,
+      "wb-red-minus": 15
+    },
+    "hats": {
+    }
+  },
+  "axes": {
+    "pan-axis": 0,
+    "tilt-axis": 1,
+    "zoom-axis": 4
+  },
+  "parameters": {
+    "kill": [8, 9],
+    "pan-axis-multiplier": 23.0,
+    "tilt-axis-multiplier": 17.0,
+    "zoom-axis-multiplier": 2.5,
+    "zoom-axis-enabled": true,
+    "invert-pan-axis": false,
+    "invert-tilt-axis": false,
+    "invert-zoom-axis": true,
+    "invert-sensitivity-axis": false,
+    "pan-axis-dead-zone": 0.2,
+    "tilt-axis-dead-zone": 0.2,
+    "zoom-axis-dead-zone": 0.2
+  }
+}

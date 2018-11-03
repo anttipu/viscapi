@@ -1,0 +1,27 @@
+{
+  "name": "no joystick",
+  "default-layout": {
+    "buttons": {
+    },
+    "hats": {
+    }
+  },
+  "axes": {
+  },
+  "parameters": {
+    "pan-axis-multiplier": 10.0,
+    "tilt-axis-multiplier": 13.0,
+    "zoom-axis-multiplier": 2.5,
+    "pan-button-multiplier": 3.0,
+    "tilt-button-multiplier": 3.0,
+    "zoom-button-multiplier": 3.0,
+    "zoom-axis-enabled": false,
+    "invert-pan-axis": false,
+    "invert-tilt-axis": false,
+    "invert-zoom-axis": false,
+    "pan-axis-dead-zone": 0.01,
+    "tilt-axis-dead-zone": 0.01,
+    "zoom-axis-dead-zone": 0.01,
+    "sensitivity-axis-dead-zone": 0.01
+  }
+}
