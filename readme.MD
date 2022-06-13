@@ -7,7 +7,8 @@ Viscapi is a python program used with Raspberry Pi to control a PTZ camera with 
 To use Viscapi, you will need the following pieces of hardware:
 * Raspberry Pi
 * USB to Serial converter
-* Logitech Extreme 3D PRO joystick
+* Any kind of controller that is supported by pygame library
+** For example Logitech Extreme 3D PRO joystick or Playstation controller
 * Telycam PTZ camera (in theory should work with any PTZ camera with serial Visca support)
 
 ## Needed software
